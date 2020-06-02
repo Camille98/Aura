@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092F73A5C68190957BC9B6A3 /* Pods_AuraApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40447F74D6FEC4E14EA1CE0B /* Pods_AuraApp.framework */; };
+		9515B656B03E27FC11248669 /* Pods_AuraAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4E4F753604FD9780159461 /* Pods_AuraAppTests.framework */; };
+		F37263A523A45FA800DE3587 /* mp3Folder in Resources */ = {isa = PBXBuildFile; fileRef = F37263A423A45FA600DE3587 /* mp3Folder */; };
+		F37263A723A697A700DE3587 /* auraAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F37263A623A697A600DE3587 /* auraAudio.mp3 */; };
+		F37263C923A8D7E900DE3587 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37263C823A8D7E900DE3587 /* SessionStore.swift */; };
+		F37263CB23A8E03400DE3587 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37263CA23A8E03300DE3587 /* SwiftUIView.swift */; };
+		F37263D323A9590700DE3587 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37263CD23A9590200DE3587 /* ContentView.swift */; };
+		F37263D423A9590700DE3587 /* SessionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37263CE23A9590200DE3587 /* SessionStatus.swift */; };
+		F37263D523A9590700DE3587 /* AgeQs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37263CF23A9590200DE3587 /* AgeQs.swift */; };
+		F37263D623A9590700DE3587 /* GenreQs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37263D023A9590200DE3587 /* GenreQs.swift */; };
+		F37263D723A9590700DE3587 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37263D123A9590200DE3587 /* ViewRouter.swift */; };
+		F37263D923A960D900DE3587 /* SignUpContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37263D823A960D800DE3587 /* SignUpContentView.swift */; };
+		F37263DD23A9610D00DE3587 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37263DC23A9610C00DE3587 /* MainPage.swift */; };
+		F37263DF23A9611300DE3587 /* LoginContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37263DE23A9611300DE3587 /* LoginContentView.swift */; };
+		F37263E123A97BFD00DE3587 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37263E023A97BFD00DE3587 /* MotherView.swift */; };
+		F3E1634E239CD5E7002CF06B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1634D239CD5E7002CF06B /* AppDelegate.swift */; };
+		F3E16350239CD5E7002CF06B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1634F239CD5E7002CF06B /* SceneDelegate.swift */; };
+		F3E16354239CD5EA002CF06B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E16353239CD5EA002CF06B /* Assets.xcassets */; };
+		F3E16357239CD5EA002CF06B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E16356239CD5EA002CF06B /* Preview Assets.xcassets */; };
+		F3E1635A239CD5EA002CF06B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E16358239CD5EA002CF06B /* LaunchScreen.storyboard */; };
+		F3E16365239CD5EA002CF06B /* AuraAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E16364239CD5EA002CF06B /* AuraAppTests.swift */; };
+		F3E16375239CDD23002CF06B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3E16374239CDD23002CF06B /* GoogleService-Info.plist */; };
+		F3E16376239CDD23002CF06B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F3E16374239CDD23002CF06B /* GoogleService-Info.plist */; };
+		F3E1637B239CEB09002CF06B /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1637A239CEB09002CF06B /* ImagePicker.swift */; };
+		F3E1637C239CEB09002CF06B /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1637A239CEB09002CF06B /* ImagePicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3E16361239CD5EA002CF06B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3E16342239CD5E7002CF06B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3E16349239CD5E7002CF06B;
+			remoteInfo = AuraApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C562298406D6F17BFA98C81 /* Pods-AuraAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuraAppTests.debug.xcconfig"; path = "Target Support Files/Pods-AuraAppTests/Pods-AuraAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		289972658BA9A06302DEA513 /* Pods-AuraAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuraAppTests.release.xcconfig"; path = "Target Support Files/Pods-AuraAppTests/Pods-AuraAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D7981E4E335AE220AB9EFB9 /* Pods-AuraApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuraApp.release.xcconfig"; path = "Target Support Files/Pods-AuraApp/Pods-AuraApp.release.xcconfig"; sourceTree = "<group>"; };
+		40447F74D6FEC4E14EA1CE0B /* Pods_AuraApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuraApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F317252F29152A55884903 /* Pods-AuraApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuraApp.debug.xcconfig"; path = "Target Support Files/Pods-AuraApp/Pods-AuraApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4F4E4F753604FD9780159461 /* Pods_AuraAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuraAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F37263A423A45FA600DE3587 /* mp3Folder */ = {isa = PBXFileReference; lastKnownFileType = folder; name = mp3Folder; path = ../../Downloads/mp3Folder; sourceTree = "<group>"; };
+		F37263A623A697A600DE3587 /* auraAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = auraAudio.mp3; path = ../../Downloads/mp3Folder/auraAudio.mp3; sourceTree = "<group>"; };
+		F37263C823A8D7E900DE3587 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		F37263CA23A8E03300DE3587 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		F37263CD23A9590200DE3587 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F37263CE23A9590200DE3587 /* SessionStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionStatus.swift; sourceTree = "<group>"; };
+		F37263CF23A9590200DE3587 /* AgeQs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeQs.swift; sourceTree = "<group>"; };
+		F37263D023A9590200DE3587 /* GenreQs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreQs.swift; sourceTree = "<group>"; };
+		F37263D123A9590200DE3587 /* ViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		F37263D823A960D800DE3587 /* SignUpContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpContentView.swift; sourceTree = "<group>"; };
+		F37263DC23A9610C00DE3587 /* MainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = SOURCE_ROOT; };
+		F37263DE23A9611300DE3587 /* LoginContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginContentView.swift; sourceTree = SOURCE_ROOT; };
+		F37263E023A97BFD00DE3587 /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
+		F3E1634A239CD5E7002CF06B /* AuraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E1634D239CD5E7002CF06B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3E1634F239CD5E7002CF06B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3E16353239CD5EA002CF06B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3E16356239CD5EA002CF06B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3E16359239CD5EA002CF06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3E1635B239CD5EA002CF06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3E16360239CD5EA002CF06B /* AuraAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuraAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E16364239CD5EA002CF06B /* AuraAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuraAppTests.swift; sourceTree = "<group>"; };
+		F3E16366239CD5EA002CF06B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3E16374239CDD23002CF06B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F3E1637A239CEB09002CF06B /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3E16347239CD5E7002CF06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092F73A5C68190957BC9B6A3 /* Pods_AuraApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E1635D239CD5EA002CF06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9515B656B03E27FC11248669 /* Pods_AuraAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34426E2748A2437DB435AC31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40447F74D6FEC4E14EA1CE0B /* Pods_AuraApp.framework */,
+				4F4E4F753604FD9780159461 /* Pods_AuraAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96185CE8C0880234D67045D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49F317252F29152A55884903 /* Pods-AuraApp.debug.xcconfig */,
+				2D7981E4E335AE220AB9EFB9 /* Pods-AuraApp.release.xcconfig */,
+				1C562298406D6F17BFA98C81 /* Pods-AuraAppTests.debug.xcconfig */,
+				289972658BA9A06302DEA513 /* Pods-AuraAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3E16341239CD5E7002CF06B = {
+			isa = PBXGroup;
+			children = (
+				F37263A623A697A600DE3587 /* auraAudio.mp3 */,
+				F37263A423A45FA600DE3587 /* mp3Folder */,
+				F3E1634C239CD5E7002CF06B /* AuraApp */,
+				F3E16363239CD5EA002CF06B /* AuraAppTests */,
+				F3E1634B239CD5E7002CF06B /* Products */,
+				96185CE8C0880234D67045D4 /* Pods */,
+				34426E2748A2437DB435AC31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3E1634B239CD5E7002CF06B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3E1634A239CD5E7002CF06B /* AuraApp.app */,
+				F3E16360239CD5EA002CF06B /* AuraAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3E1634C239CD5E7002CF06B /* AuraApp */ = {
+			isa = PBXGroup;
+			children = (
+				F3E16374239CDD23002CF06B /* GoogleService-Info.plist */,
+				F37263D823A960D800DE3587 /* SignUpContentView.swift */,
+				F37263CF23A9590200DE3587 /* AgeQs.swift */,
+				F37263CD23A9590200DE3587 /* ContentView.swift */,
+				F37263DC23A9610C00DE3587 /* MainPage.swift */,
+				F37263DE23A9611300DE3587 /* LoginContentView.swift */,
+				F37263D023A9590200DE3587 /* GenreQs.swift */,
+				F37263CE23A9590200DE3587 /* SessionStatus.swift */,
+				F37263D123A9590200DE3587 /* ViewRouter.swift */,
+				F37263CA23A8E03300DE3587 /* SwiftUIView.swift */,
+				F37263C823A8D7E900DE3587 /* SessionStore.swift */,
+				F3E1634D239CD5E7002CF06B /* AppDelegate.swift */,
+				F3E1634F239CD5E7002CF06B /* SceneDelegate.swift */,
+				F3E16353239CD5EA002CF06B /* Assets.xcassets */,
+				F3E16358239CD5EA002CF06B /* LaunchScreen.storyboard */,
+				F3E1635B239CD5EA002CF06B /* Info.plist */,
+				F3E16355239CD5EA002CF06B /* Preview Content */,
+				F3E1637A239CEB09002CF06B /* ImagePicker.swift */,
+				F37263E023A97BFD00DE3587 /* MotherView.swift */,
+			);
+			path = AuraApp;
+			sourceTree = "<group>";
+		};
+		F3E16355239CD5EA002CF06B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3E16356239CD5EA002CF06B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3E16363239CD5EA002CF06B /* AuraAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3E16364239CD5EA002CF06B /* AuraAppTests.swift */,
+				F3E16366239CD5EA002CF06B /* Info.plist */,
+			);
+			path = AuraAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3E16349239CD5E7002CF06B /* AuraApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3E16369239CD5EA002CF06B /* Build configuration list for PBXNativeTarget "AuraApp" */;
+			buildPhases = (
+				41E359444948726B0DEA8A2A /* [CP] Check Pods Manifest.lock */,
+				F3E16346239CD5E7002CF06B /* Sources */,
+				F3E16347239CD5E7002CF06B /* Frameworks */,
+				F3E16348239CD5E7002CF06B /* Resources */,
+				124A5EA716C6E04F24693ACD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AuraApp;
+			productName = AuraApp;
+			productReference = F3E1634A239CD5E7002CF06B /* AuraApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3E1635F239CD5EA002CF06B /* AuraAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3E1636C239CD5EA002CF06B /* Build configuration list for PBXNativeTarget "AuraAppTests" */;
+			buildPhases = (
+				9ED8DBDA98D83E0FCC265223 /* [CP] Check Pods Manifest.lock */,
+				F3E1635C239CD5EA002CF06B /* Sources */,
+				F3E1635D239CD5EA002CF06B /* Frameworks */,
+				F3E1635E239CD5EA002CF06B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3E16362239CD5EA002CF06B /* PBXTargetDependency */,
+			);
+			name = AuraAppTests;
+			productName = AuraAppTests;
+			productReference = F3E16360239CD5EA002CF06B /* AuraAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3E16342239CD5E7002CF06B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Camille Etienne";
+				TargetAttributes = {
+					F3E16349239CD5E7002CF06B = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					F3E1635F239CD5EA002CF06B = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = F3E16349239CD5E7002CF06B;
+					};
+				};
+			};
+			buildConfigurationList = F3E16345239CD5E7002CF06B /* Build configuration list for PBXProject "AuraApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3E16341239CD5E7002CF06B;
+			productRefGroup = F3E1634B239CD5E7002CF06B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3E16349239CD5E7002CF06B /* AuraApp */,
+				F3E1635F239CD5EA002CF06B /* AuraAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3E16348239CD5E7002CF06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E1635A239CD5EA002CF06B /* LaunchScreen.storyboard in Resources */,
+				F3E16375239CDD23002CF06B /* GoogleService-Info.plist in Resources */,
+				F3E16357239CD5EA002CF06B /* Preview Assets.xcassets in Resources */,
+				F3E16354239CD5EA002CF06B /* Assets.xcassets in Resources */,
+				F37263A723A697A700DE3587 /* auraAudio.mp3 in Resources */,
+				F37263A523A45FA800DE3587 /* mp3Folder in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E1635E239CD5EA002CF06B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E16376239CDD23002CF06B /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		124A5EA716C6E04F24693ACD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuraApp/Pods-AuraApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AuraApp/Pods-AuraApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AuraApp/Pods-AuraApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41E359444948726B0DEA8A2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuraApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ED8DBDA98D83E0FCC265223 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuraAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3E16346239CD5E7002CF06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F37263D723A9590700DE3587 /* ViewRouter.swift in Sources */,
+				F37263E123A97BFD00DE3587 /* MotherView.swift in Sources */,
+				F37263DF23A9611300DE3587 /* LoginContentView.swift in Sources */,
+				F3E1634E239CD5E7002CF06B /* AppDelegate.swift in Sources */,
+				F37263D623A9590700DE3587 /* GenreQs.swift in Sources */,
+				F37263CB23A8E03400DE3587 /* SwiftUIView.swift in Sources */,
+				F37263DD23A9610D00DE3587 /* MainPage.swift in Sources */,
+				F3E1637B239CEB09002CF06B /* ImagePicker.swift in Sources */,
+				F37263D523A9590700DE3587 /* AgeQs.swift in Sources */,
+				F37263D323A9590700DE3587 /* ContentView.swift in Sources */,
+				F37263D923A960D900DE3587 /* SignUpContentView.swift in Sources */,
+				F3E16350239CD5E7002CF06B /* SceneDelegate.swift in Sources */,
+				F37263D423A9590700DE3587 /* SessionStatus.swift in Sources */,
+				F37263C923A8D7E900DE3587 /* SessionStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3E1635C239CD5EA002CF06B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E1637C239CEB09002CF06B /* ImagePicker.swift in Sources */,
+				F3E16365239CD5EA002CF06B /* AuraAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3E16362239CD5EA002CF06B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3E16349239CD5E7002CF06B /* AuraApp */;
+			targetProxy = F3E16361239CD5EA002CF06B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3E16358239CD5EA002CF06B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3E16359239CD5EA002CF06B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3E16367239CD5EA002CF06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3E16368239CD5EA002CF06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3E1636A239CD5EA002CF06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F317252F29152A55884903 /* Pods-AuraApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AuraApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AuraApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.camille.AuraApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3E1636B239CD5EA002CF06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D7981E4E335AE220AB9EFB9 /* Pods-AuraApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AuraApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AuraApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.camille.AuraApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3E1636D239CD5EA002CF06B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C562298406D6F17BFA98C81 /* Pods-AuraAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AuraAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.camille.AuraAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuraApp.app/AuraApp";
+			};
+			name = Debug;
+		};
+		F3E1636E239CD5EA002CF06B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289972658BA9A06302DEA513 /* Pods-AuraAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AuraAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.camille.AuraAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AuraApp.app/AuraApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3E16345239CD5E7002CF06B /* Build configuration list for PBXProject "AuraApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E16367239CD5EA002CF06B /* Debug */,
+				F3E16368239CD5EA002CF06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3E16369239CD5EA002CF06B /* Build configuration list for PBXNativeTarget "AuraApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E1636A239CD5EA002CF06B /* Debug */,
+				F3E1636B239CD5EA002CF06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3E1636C239CD5EA002CF06B /* Build configuration list for PBXNativeTarget "AuraAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E1636D239CD5EA002CF06B /* Debug */,
+				F3E1636E239CD5EA002CF06B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3E16342239CD5E7002CF06B /* Project object */;
+}
